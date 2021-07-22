@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Напоминание</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="block-form">
+    <form action="#" method="post" class="memory-form">
+        <div class="memory-inner">
+        <textarea class="memory-textarea" placeholder="Введите текст" readonly rows="10"></textarea>
+        </div>
+        <div class="block-create">
+            <button class="button-create" type="submit">Создать</button>
+            <input type="date" class="calendar-create"> 
+        </div>
+    </form>
+    <form action="#" method="POST" class="memory-work-form">
+        <div>
+            <label class="memory-label" for="memory-show">Напоминание</label>
+            <textarea class="memory-show" readonly disabled></textarea>
+            <div class="block-show">
+                <button class="button-show">Смотреть</button>
+                <input type="date" class="calendar-show">
+            </div>
+            <button class="button-write">Редактировать</button>
+            <button class="button-delete">Удалить</button>
+        </div>
+    </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

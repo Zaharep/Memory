@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    background-color: #c4c4c4;
+}
+
+.block-form {
+    display: flex;
+}
+
+.memory-inner {
+    margin-left: 105px;
+    margin-top: 88px;
+}
+
+.button-create {
+    margin-left: 105px;
+    margin-top: 58px;
+    background-color: #ffdfdf; 
+    width: 158px;   
+    height: 38px;
+}
+
+.calendar-create {
+    width: 158px;   
+    height: 38px;
+    margin-left: 25px;
+}
+
+.memory-textarea {
+    width: 337px;
+}
+
